@@ -1609,7 +1609,10 @@
       </svg>
     </OptionScreen>
   {:else if page === 'russian'}
-    <OptionScreen page="hero">
+    <OptionScreen
+      page="hero"
+      fact="Русский язык находится на 4 месте в списке\nмирового значения!"
+      showHintWithIndex={1}>
       <h4 class="question" slot="question">Владеете ли Вы русским языком?</h4>
       <svg
         class="icon"
