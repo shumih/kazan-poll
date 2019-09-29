@@ -22,7 +22,7 @@
     font-size: 25px;
     line-height: 31px;
     text-align: center;
-    width: 300px;
+    width: 310px;
 
     color: var(--black);
   }

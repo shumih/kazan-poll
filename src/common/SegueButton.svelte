@@ -14,18 +14,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 8px;
   }
 
   button {
     width: 335px;
     height: 37px;
+    min-height: 32px;
     font-family: Helvetica;
 
     border: none;
     border-radius: 9px;
     background: #dcdcdc;
     margin: 0;
-    margin-top: 8px;
   }
 
   .active {
