@@ -60,7 +60,7 @@
         on:click={e => (index = 0)}>
         <slot name="0" />
       </div>
-      <span>Да</span>
+      <span>{page === 'age' ? 'Женский' : 'Да'}</span>
     </div>
     <div class="group">
       <div
@@ -69,7 +69,7 @@
         on:click={e => (index = 1)}>
         <slot name="1" />
       </div>
-      <span>Нет</span>
+      <span>{page === 'age' ? 'Мужской' : 'Нет'}</span>
     </div>
   </div>
   <SegueButton
